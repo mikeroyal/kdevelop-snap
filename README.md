@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/53942613-12f3e780-4070-11e9-9694-cdb35d131f7e.png">
+  <img src="https://user-images.githubusercontent.com/45159366/54337994-d7b46400-45ed-11e9-8154-146a879bcefd.png">
   <br />
-Unreal Engine
+KDevelop
 </h1>
 
-<p align="center"><b>This is the snap for Unreal Engine, the most powerful creation engine. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
+<p align="center"><b>This is the snap for KDevelop, a featureful, plugin-extensible IDE for C/C++ and other programming languages . It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -12,7 +12,7 @@ Unreal Engine
 </p>
 -->
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/53942616-138c7e00-4070-11e9-8e10-9fb1ebae68f9.png">
+  <img src="https://user-images.githubusercontent.com/45159366/54337996-d8e59100-45ed-11e9-8cca-d5c24abcdcfd.png">
   <br />
 </h1>
 
@@ -20,7 +20,7 @@ Unreal Engine
 
 ## Install
 
-    sudo snap install unrealengine
+    sudo snap install kdevelop
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
