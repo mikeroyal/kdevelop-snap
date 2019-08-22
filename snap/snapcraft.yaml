@@ -1,15 +1,14 @@
 name: kdevelop
-version: 5.3.2
+version: 5.4.1
 summary:  KDevelop IDE.
 description:  a featureful, plugin-extensible IDE for C/C++ and other programming languages.
-  
-adopt-info: devmode # use 'strict' once you have the right plugs and slots
+ 
 
 grade: stable
 confinement: devmode
+base: core18
 
 architectures:
-  - build-on: i386
   - build-on: amd64
   
 
@@ -110,3 +109,8 @@ kdevelop:
       - libxdmcp6
       - libxext6
       - zlib1g
+apps:
+  kdevelop:
+    command: kdevelop
+    environment:
+      "DISABLE_WAYLAND": "1"
